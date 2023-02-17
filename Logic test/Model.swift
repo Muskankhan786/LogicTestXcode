@@ -6,20 +6,20 @@
 //
 
 import Foundation
-class Model {
-    
-    var leftTableArr = ["A","B","C","D","E","F","G","H","I","J"]
-    var rightTableArr = ["F","G","H","I","J"]
-    var multipleSelection = [String]()
-    
-}
 
 class DataModel {
+    
     let title : String?
-    let value : Int?
+    var value : Int?
+    var isSelected: Bool = false
     
     init(title: String?, value: Int?) {
         self.title = title
-        self.value = value
+        self.value = value ?? 0
     }
+    
+    var getStringValue : String {
+        return "\(value!)"
+    }
+
 }

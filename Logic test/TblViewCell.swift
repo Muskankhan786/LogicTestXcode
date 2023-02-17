@@ -8,45 +8,31 @@
 import UIKit
 
 class TblViewCell: UITableViewCell {
-    
-    var numbers = 0
-    var maxValue = 10
-    var minValue = 0
-   
-    
-   
+  
     @IBOutlet weak var lblTitle: UILabel!
-    
     @IBOutlet weak var lblValue: UILabel!
     
+    private var dataModel: DataModel?
+
+    func renderData(model: DataModel) {
+        self.dataModel = model
+        self.lblTitle.text = model.title
+        self.lblValue.text = model.getStringValue
+    }
     
     @IBAction func btnPlus(_ sender: Any) {
-        if numbers < maxValue {
-            self.numbers += 1
-            lblValue.text = String(numbers)
-        } else  {
-            print(numbers)
-            
-        }
+        debugPrint(self.dataModel?.value as Any)
+        self.dataModel?.value! += 1
+        self.lblValue.text = self.dataModel?.getStringValue
+        debugPrint(self.dataModel?.value as Any)
     }
+    
     @IBAction func btnMinus(_ sender: Any) {
-        if numbers > minValue {
-            self.numbers -= 1
-            lblValue.text = String(numbers)
-        } else  {
-            print(numbers)
-            
+        debugPrint(self.dataModel?.value as Any)
+        if self.dataModel!.value! > 0 {
+            self.dataModel?.value! -= 1
+            self.lblValue.text = self.dataModel?.getStringValue
+            debugPrint(self.dataModel?.value as Any)
         }
-        
     }
 }
-    
-//
-//
-//
-//
-//if numbers < maxValue {
-//    self.numbers += 1
-//    lblSecond.text = String(numbers)
-//} else  {
-//    print(numbers)
