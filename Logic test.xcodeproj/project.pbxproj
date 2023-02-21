@@ -13,7 +13,6 @@
 		D9E77971299A0287004140DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E77970299A0287004140DD /* Assets.xcassets */; };
 		D9E77974299A0287004140DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E77972299A0287004140DD /* LaunchScreen.storyboard */; };
 		D9E7797C299A06BC004140DD /* TblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7797B299A06BC004140DD /* TblViewCell.swift */; };
-		D9E7797E299A06D7004140DD /* LeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7797D299A06D7004140DD /* LeftTableViewCell.swift */; };
 		D9EDCE4D299DF41D00535D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EDCE4B299DF41D00535D22 /* Main.storyboard */; };
 		D9EDCE4F299E13E800535D22 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDCE4E299E13E800535D22 /* Model.swift */; };
 		D9EDCE75299E3C2800535D22 /* TblViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9EDCE74299E3C2800535D22 /* TblViewCell.xib */; };
@@ -28,7 +27,6 @@
 		D9E77973299A0287004140DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9E77975299A0287004140DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9E7797B299A06BC004140DD /* TblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblViewCell.swift; sourceTree = "<group>"; };
-		D9E7797D299A06D7004140DD /* LeftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewCell.swift; sourceTree = "<group>"; };
 		D9EDCE4C299DF41D00535D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9EDCE4E299E13E800535D22 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D9EDCE74299E3C2800535D22 /* TblViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TblViewCell.xib; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				D9E77969299A0284004140DD /* SceneDelegate.swift */,
 				D9E7796B299A0284004140DD /* ViewController.swift */,
 				D9E7797B299A06BC004140DD /* TblViewCell.swift */,
-				D9E7797D299A06D7004140DD /* LeftTableViewCell.swift */,
 				D9EDCE4E299E13E800535D22 /* Model.swift */,
 				D9E77970299A0287004140DD /* Assets.xcassets */,
 				D9EDCE74299E3C2800535D22 /* TblViewCell.xib */,
@@ -155,7 +152,6 @@
 				D9E7796C299A0284004140DD /* ViewController.swift in Sources */,
 				D9E77968299A0284004140DD /* AppDelegate.swift in Sources */,
 				D9EDCE4F299E13E800535D22 /* Model.swift in Sources */,
-				D9E7797E299A06D7004140DD /* LeftTableViewCell.swift in Sources */,
 				D9E7796A299A0284004140DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

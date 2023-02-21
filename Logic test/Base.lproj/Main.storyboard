@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nY0-et-r2O">
-                                <rect key="frame" x="50" y="10" width="281" height="373"/>
+                                <rect key="frame" x="20" y="10" width="311" height="373"/>
                                 <color key="backgroundColor" red="1" green="0.85706195839999999" blue="0.2012347384" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="DXO-4K-PsB"/>
@@ -25,7 +25,7 @@
                                 </connections>
                             </tableView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bDJ-JQ-otU">
-                                <rect key="frame" x="521" y="10" width="281" height="373"/>
+                                <rect key="frame" x="521" y="10" width="311" height="373"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="5kE-1q-8Rq"/>
@@ -58,7 +58,7 @@
                         <constraints>
                             <constraint firstItem="8QO-04-dPm" firstAttribute="centerX" secondItem="xid-Nb-ueX" secondAttribute="centerX" id="3di-bF-e9r"/>
                             <constraint firstItem="nY0-et-r2O" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="8af-dN-tOW"/>
-                            <constraint firstItem="nY0-et-r2O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="AFs-0w-FKX"/>
+                            <constraint firstItem="nY0-et-r2O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AFs-0w-FKX"/>
                             <constraint firstItem="8QO-04-dPm" firstAttribute="top" secondItem="xid-Nb-ueX" secondAttribute="bottom" constant="70" id="BPj-BA-BUs"/>
                             <constraint firstItem="bDJ-JQ-otU" firstAttribute="bottom" secondItem="nY0-et-r2O" secondAttribute="bottom" id="EKP-1e-A9J"/>
                             <constraint firstItem="xid-Nb-ueX" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-80" id="Rnw-s7-xYJ"/>
@@ -66,7 +66,7 @@
                             <constraint firstItem="xid-Nb-ueX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VpX-q6-c4C"/>
                             <constraint firstItem="xid-Nb-ueX" firstAttribute="leading" secondItem="nY0-et-r2O" secondAttribute="trailing" constant="20" id="WIH-TD-Ha2"/>
                             <constraint firstItem="bDJ-JQ-otU" firstAttribute="leading" secondItem="xid-Nb-ueX" secondAttribute="trailing" constant="20" id="bvt-dO-I7A"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bDJ-JQ-otU" secondAttribute="trailing" constant="50" id="fJK-ly-P75"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bDJ-JQ-otU" secondAttribute="trailing" constant="20" id="fJK-ly-P75"/>
                             <constraint firstItem="8QO-04-dPm" firstAttribute="width" secondItem="xid-Nb-ueX" secondAttribute="width" id="hXw-l0-4Yf"/>
                             <constraint firstItem="bDJ-JQ-otU" firstAttribute="top" secondItem="nY0-et-r2O" secondAttribute="top" id="vTH-03-Rvn"/>
                             <constraint firstItem="8QO-04-dPm" firstAttribute="height" secondItem="xid-Nb-ueX" secondAttribute="height" id="wNc-oK-k6k"/>
